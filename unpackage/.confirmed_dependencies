@@ -1,0 +1,34 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"html/home.html"
+		],
+		"refer": [
+			"html/home.html"
+		]
+	},
+	"html/home.html": {
+		"resources": [
+			"css/home.css",
+			"css/iconfont.css",
+			"js/Jump.js",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"fonts/mui.ttf",
+			"img/我的.png",
+			"img/index1.png",
+			"css/swiper.min.css",
+			"js/swiper.min.js",
+			"img/lesson1 (1).webp",
+			"img/lesson1 (3).webp",
+			"img/lesson1 (2).webp",
+			"img/lesson1 (5).webp",
+			"img/lesson1 (4).webp",
+			"img/lesson1 (6).webp",
+			"img/lesson7.png"
+		]
+	}
+}
