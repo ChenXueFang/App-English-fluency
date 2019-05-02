@@ -6,11 +6,16 @@
 body{
 	background: #fffbff !important;
 }
+/*头部标题切换*/
 header h1{
-	color: #4acb18 !important;
-	font-size: 21px !important;
+	color: #4acb18 !important;/*绿色*/
+	font-size: 18px !important;
 }
-header a{
+header h1 a{
+	color: #393839;
+}
+/*图标*/
+header>a{
 	color: #737573;
 }
 header{

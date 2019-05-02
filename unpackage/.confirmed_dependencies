@@ -44,7 +44,8 @@
 			"html/ci.html"
 		],
 		"refer": [
-			"html/ci.html"
+			"html/ci.html",
+			"html/add.html"
 		]
 	},
 	"html/wo.html": {
@@ -65,7 +66,8 @@
 			"img/list (6).png",
 			"js/Jump.js",
 			"img/list_btn (1).png",
-			"img/list_btn (2).png"
+			"img/list_btn (2).png",
+			"img/emoji_107.png"
 		],
 		"refer": [
 			"html/set.html"
@@ -127,7 +129,22 @@
 			"img/list (2).png",
 			"img/list (1).png",
 			"img/list (4).png",
-			"img/list (3).png"
+			"img/list (3).png",
+			"css/default.css",
+			"css/font-awesome.min.css",
+			"css/styles.css",
+			"css/normalize.css"
+		]
+	},
+	"html/add.html": {
+		"resources": [
+			"css/add.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/iconfont.css",
+			"css/mui.min.css",
+			"img/ci (1).png",
+			"img/emoji_107.png"
 		]
 	}
 }

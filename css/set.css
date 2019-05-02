@@ -44,7 +44,23 @@ header{
 .set_ul li>div b:nth-child(2){
 	background: #009a00;
 }
-
+/******************************************/
+/*退出按钮*/
+.out_box{
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+.out{
+	width: 80%;
+	height: 40px;
+	display: block;
+	font-size: 16px;
+	margin: 0 auto;
+	/*margin-bottom: 40px;*/
+	color: #fff;
+	background: #e7494a;
+	border-radius: 20px;
+}
 
 
 

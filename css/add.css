@@ -1,0 +1,45 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+header h1{
+	/*color: #4acb18 !important;*/
+	font-size: 21px !important;
+}
+/*header图标*/
+header a{
+	color: #737573;
+}
+/*主体色*/
+body{
+	background: #f7f7f7 !important;
+}
+header{
+	background: #fff !important;
+}
+/******************************************************/
+/*九宫格*/
+/*取消表格边框*/
+.mui-table-view-cell{
+	border: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
