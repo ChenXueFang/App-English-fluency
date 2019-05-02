@@ -197,9 +197,12 @@
 					"js/mui.min.js",
 					"fonts/mui.ttf",
 					"css/mui.min.css",
-					"html/home.html"
+					"html/home.html",
+					"css/iconfont.css"
 				],
-				"refer": [],
+				"refer": [
+					"html/wo.html"
+				],
 				"priority": 0
 			},
 			"html/home.html": {
@@ -220,7 +223,51 @@
 					"img/lesson1 (5).webp",
 					"img/lesson1 (4).webp",
 					"img/lesson1 (6).webp",
-					"img/lesson7.png"
+					"img/lesson7.png",
+					"img/lesson_ban (1).png",
+					"img/lesson_ban (2).png",
+					"img/new_ke (1).png",
+					"img/new_ke (2).png",
+					"img/new_ke (3).png",
+					"img/new_ke (5).png",
+					"img/new_ke (4).png",
+					"img/lesson_ban4.png",
+					"img/lesson_ban3.png",
+					"img/banner_lun (1).png",
+					"html/ci.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"html/wo.html": {
+				"resources": [
+					"js/mui.min.js",
+					"css/mui.min.css",
+					"css/iconfont.css",
+					"css/wo.css",
+					"fonts/mui.ttf",
+					"img/touxiang.png",
+					"img/list (1).png",
+					"img/list (2).png",
+					"img/list (4).png",
+					"img/list (3).png",
+					"img/list (5).png",
+					"img/list (8).png",
+					"img/list (7).png",
+					"img/list (6).png",
+					"js/Jump.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"html/ci.html": {
+				"resources": [
+					"css/ci.css",
+					"fonts/mui.ttf",
+					"js/mui.min.js",
+					"css/iconfont.css",
+					"css/mui.min.css",
+					"html/home.html"
 				],
 				"refer": [],
 				"priority": 0

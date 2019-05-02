@@ -6,24 +6,33 @@
     <title></title>
     <script src="js/mui.min.js"></script>
     <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/iconfont.css" rel="stylesheet"/>
     <script type="text/javascript" charset="utf-8">
       	mui.init();
     </script>
+    <style type="text/css">
+    	.mui-active{
+    		color: #4acb18 !important;
+    	}
+    	nav{
+			background: #fff !important;
+		}
+    </style>
 </head>
 <body>
 	<nav class="mui-bar mui-bar-tab">
 		<a class="mui-tab-item mui-active" href="html/home.html">
-			<span class="mui-icon mui-icon-home"></span>
-			<span class="mui-tab-label">首页</span>
+			<span class="mui-icon iconfont icon-shu"></span>
+			<span class="mui-tab-label">学习</span>
 		</a>
-		<a class="mui-tab-item" href="html/Shop.html">
-			<span class="mui-icon mui-icon-phone"></span>
-			<span class="mui-tab-label">申请入驻</span>
+		<a class="mui-tab-item" href="html/wo.html">
+			<span class="mui-icon iconfont icon-yonghu-xianxing"></span>
+			<span class="mui-tab-label">我</span>
 		</a>
 	</nav>
 	<script  type="text/javascript">
 		//	底部选项卡开始
-		var subpages = ['html/home.html', 'html/Shop.html'];
+		var subpages = ['html/home.html', 'html/wo.html'];
 		var subpage_style = {
 			top: '0px',
 			bottom: '51px'

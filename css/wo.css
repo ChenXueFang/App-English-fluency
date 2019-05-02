@@ -1,0 +1,99 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+header h1{
+	/*color: #4acb18 !important;*/
+	font-size: 21px !important;
+}
+/*header图标*/
+header a{
+	color: #737573;
+}
+/*主体色*/
+body{
+	background: #fffbff !important;
+}
+header{
+	background: #fff !important;
+}
+/******************************************************/
+/*个人信息*/
+.xinxi{
+	margin-bottom: 20px;
+}
+.xinxi img{
+	border-radius: 50%;
+	border: 1px solid #ccc;
+}
+.xinxi .mui-navigate-right{
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+}
+.xinxi .mui-navigate-right>p{
+	margin-left: 20px;
+	font-size: 15px;
+}
+/*************************************/
+/*四栏*/
+.four{
+	height: 90px;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #fff;
+	font-size: 18px;
+}
+.four li p{
+	color: #212021;
+	font-size: 18px;
+	margin-top: 10px;
+}
+/************************************/
+/*我的列表*/
+.wo_list{
+	margin-bottom: 20px;
+}
+.wo_list img{
+	width: 12%;
+}
+.wo_list li>div{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.wo_list li>div span{
+	margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
