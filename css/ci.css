@@ -19,16 +19,69 @@ header{
 	background: #fff !important;
 }
 /******************************************************/
-
-
-
-
-
-
-
-
-
-
+/*单词本*/
+.ben_box{
+	width: 100%;
+	background: #fff;
+	padding: 30px 0;
+	margin-bottom: 20px;
+}
+.ben_con{
+	width: 90%;
+	margin: 0 auto;
+}
+.ben_con p{
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	background: #e7e7e7;
+	border-radius: 10px;
+	font-size: 16px;
+}
+/*两本单词本*/
+.two_ben{
+	display: flex;
+	justify-content: space-between;
+}
+.two_ben img{
+	width: 47%;
+	height: 100px;
+	margin-top: 30px;
+}
+/*******************************************/
+/*考试*/
+.lesson{
+	padding: 30px 20px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+.lesson_title{
+	display: flex;
+	justify-content: space-between;
+}
+.lesson_title li{
+	font-size: 18px;
+}
+.lesson_title a{
+	color: #b5b2b5;
+}
+/*考试内容*/
+.test_con{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.test_con li{
+	width: 30%;	
+	margin-top: 20px;
+}
+.test_con img{
+	width: 100%;
+	margin-bottom: 20px;	
+}
+.test_con p{
+	color: #212021;
+}
 
 
 

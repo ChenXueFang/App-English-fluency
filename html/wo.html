@@ -5,20 +5,15 @@
 	<title></title>
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 	<link href="../css/mui.min.css" rel="stylesheet" />
-	<script src="../js/mui.min.js"></script>
-	<script src="../js/Jump.js"></script>
 	<link rel="stylesheet" href="../css/iconfont.css">
 	<link rel="stylesheet" href="../css/wo.css">
-	<script type="text/javascript">
-		mui.init()
-	</script>
 </head>
 
 <body>
 	<header class="mui-bar mui-bar-nav">
 	    <a class="mui-icon mui-icon-left-nav iconfont icon-pinglunxiao"></a>
 	    <h1 class="mui-title">我</h1>
-	    <a class="mui-icon mui-pull-right iconfont icon-setting"></a>
+	    <a class="mui-icon mui-pull-right iconfont icon-setting a" htmlName="set.html"></a>
 	</header>
 	<div class="mui-content">
 		<!--个人信息-->
@@ -56,13 +51,13 @@
 		<div class="wo_list">
 			<ul class="mui-table-view">
 			    <li class="mui-table-view-cell">
-			        <div class="mui-navigate-right"><img class="mui-navigate-left"  src="../img/list (1).png"/><span>我的收藏</span></div>
+			        <div class="mui-navigate-right list_con"><img class="mui-navigate-left"  src="../img/list (1).png"/><span>我的收藏</span><button class="mui-pull-right">立即测试</button></div>
 			    </li>
 			    <li class="mui-table-view-cell">
-			        <div class="mui-navigate-right"><img class="mui-navigate-left"  src="../img/list (2).png"/><span>功能安装包</span></div>
+			        <div class="mui-navigate-right list_con list_con2"><img class="mui-navigate-left"  src="../img/list (2).png"/><span>功能安装包</span><button>4个待完成</button></div>
 			    </li>
 			    <li class="mui-table-view-cell">
-			        <div class="mui-navigate-right"><img class="mui-navigate-left"  src="../img/list (3).png"/><span>邀请好友</span></div>
+			        <div class="mui-navigate-right list_con list_con2"><img class="mui-navigate-left"  src="../img/list (3).png"/><span>邀请好友</span><button class="mui-icon iconfont icon-gift">4个待完成</button></div>
 			    </li>
 			    <li class="mui-table-view-cell">
 			        <div class="mui-navigate-right"><img class="mui-navigate-left"  src="../img/list (4).png"/><span>应用下载</span></div>
@@ -95,5 +90,11 @@
 		</div>
 		<!--列表-->
 	</div>
+	
+	<script src="../js/mui.min.js"></script>
+	<script src="../js/Jump.js"></script>
+	<script type="text/javascript">
+		mui.init()
+	</script>
 </body>
 </html>

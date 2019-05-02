@@ -25,7 +25,6 @@ header{
 }
 .xinxi img{
 	border-radius: 50%;
-	border: 1px solid #ccc;
 }
 .xinxi .mui-navigate-right{
 	display: flex;
@@ -68,9 +67,22 @@ header{
 .wo_list li>div span{
 	margin-left: 15px;
 }
-
-
-
+/*列表里的button*/
+.list_con button{
+	background: #4acb18;
+	border-radius: 20px;
+	color: #fff;
+	height: 30px;
+	margin-left: 100px;
+	border: none;
+}
+.list_con2 button{
+	background: #f7f3f7;
+	border-radius: 20px;
+	color: #ff6900;
+	height: 30px;
+	margin-left: 75px;
+}
 
 
 

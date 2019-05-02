@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+header h1{
+	/*color: #4acb18 !important;*/
+	font-size: 21px !important;
+}
+/*header图标*/
+header a{
+	color: #737573;
+}
+/*主体色*/
+body{
+	background: #fffbff !important;
+}
+header{
+	background: #fff !important;
+}
+/******************************************************/
+/*列表*/
+.set_ul{
+	margin-bottom: 20px;
+}
+.set_ul li>div{
+	color: #9c9aa5;
+}
+.set_ul li>div span{
+	color: #d6d3d6;
+	margin-right: 30px;
+}
+.set_ul li>div span.orange{
+	color: #ff6500;
+}
+.set_ul li>div b{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: red;
+	margin-left: 10px;
+	border-radius: 50%;
+}
+.set_ul li>div b:nth-child(2){
+	background: #009a00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

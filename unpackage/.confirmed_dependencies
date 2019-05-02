@@ -63,7 +63,12 @@
 			"img/list (8).png",
 			"img/list (7).png",
 			"img/list (6).png",
-			"js/Jump.js"
+			"js/Jump.js",
+			"img/list_btn (1).png",
+			"img/list_btn (2).png"
+		],
+		"refer": [
+			"html/set.html"
 		]
 	},
 	"html/ci.html": {
@@ -73,10 +78,56 @@
 			"js/mui.min.js",
 			"css/iconfont.css",
 			"css/mui.min.css",
-			"html/home.html"
+			"html/home.html",
+			"img/ci (2).png",
+			"img/ci (1).png",
+			"img/lesson1 (3).webp",
+			"img/lesson1 (1).webp",
+			"img/lesson1 (6).webp",
+			"img/lesson1 (4).webp",
+			"img/lesson1 (2).webp",
+			"img/lesson1 (5).webp",
+			"img/test (1).png",
+			"img/test (2).png",
+			"img/test (3).png",
+			"img/xingqu (1).png",
+			"img/xingqu (3).png",
+			"img/xingqu (2).png",
+			"index.html",
+			"js/Jump.js"
 		],
 		"refer": [
-			"html/home.html"
+			"html/home.html",
+			"index.html",
+			"html/wo.html",
+			"html/ci_zi.html",
+			"html/zi/ci_zi.html"
+		]
+	},
+	"html/ci_zi.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	},
+	"html/zi/ci_zi.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/mui.min.js"
+		]
+	},
+	"html/set.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/set.css",
+			"img/list (2).png",
+			"img/list (1).png",
+			"img/list (4).png",
+			"img/list (3).png"
 		]
 	}
 }

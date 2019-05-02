@@ -11,8 +11,6 @@
 	<link rel="stylesheet" href="../css/iconfont.css">
 	<link href="../css/swiper.min.css" rel="stylesheet" />
 	<script src="../js/swiper.min.js"></script>
-	<script src="../js/mui.min.js"></script>
-	<!--<script src="../js/Jump.js"></script>-->
 	<link rel="stylesheet" href="../css/home.css">
 </head>
 
@@ -260,9 +258,13 @@
 		</div>
 		<!--开启个性化推荐-->
 	</div>
+	
+	<script src="../js/mui.min.js"></script>
 	<script src="../js/Jump.js"></script>
 	<script type="text/javascript">
-		mui.init();
+		mui.init({
+			swipeBack: true //启用右滑关闭功能
+		});
 //		mui自动轮播
 		mui(".mui-slider").slider({interval:1500});
 //		课程轮播
