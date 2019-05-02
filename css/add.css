@@ -24,16 +24,69 @@ header{
 .mui-table-view-cell{
 	border: none !important;
 }
-
-
-
-
-
-
-
-
-
-
+/*九宫格字体颜色*/
+.mui-media-body{
+	color: #737573 !important;
+}
+/************************************/
+/*懂你英语*/
+.lesson{
+	padding: 20px 20px;
+	background: #fffbff;
+	margin-bottom: 20px;
+}
+.lesson_title{
+	display: flex;
+	justify-content: space-between;
+}
+.lesson_title li{
+	font-size: 19px;
+	color: #525963;
+}
+.lesson_title a{
+	color: #73717b;
+	font-size: 17px;
+}
+/*懂你英语内容*/
+.know{
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.know_zi{
+	width: 55%;
+}
+.know_zi h4{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.know_zi>button{
+	margin-top: 25px;
+	background: #ff6500;
+	border: none;
+	color: #fff;
+	padding-left: 30px;
+	padding-right: 15px;
+	border-radius: 25px 0 0 25px;
+}
+/****************************************/
+/*日常必知词汇*/
+.day{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.day li{
+	width: 31%;
+	color: #212021;
+}
+.day li img{
+	width: 100%;
+}
+.day li p{
+	color: #212021;
+	margin-top: 10px;
+}
 
 
 
