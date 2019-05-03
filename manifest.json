@@ -234,10 +234,21 @@
 					"img/lesson_ban4.png",
 					"img/lesson_ban3.png",
 					"img/banner_lun (1).png",
-					"html/ci.html"
+					"html/ci.html",
+					"img/kecheng (1).png",
+					"img/banner_lun (3).png",
+					"img/banner_lun (2).png",
+					"img/banner_lun (4).png",
+					"img/my_lesson (1).png",
+					"img/my_lesson (3).png",
+					"img/my_lesson (5).png",
+					"img/my_lesson (4).png",
+					"img/my_lesson (2).png",
+					"img/my_lesson (6).png"
 				],
 				"refer": [
-					"html/add.html"
+					"html/add.html",
+					"html/look_all.html"
 				],
 				"priority": 0
 			},
@@ -364,6 +375,28 @@
 					"img/kecheng (6).png",
 					"img/kecheng (5).png",
 					"img/kecheng (4).png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"html/look_all.html": {
+				"resources": [
+					"css/look_all.css",
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/iconfont.css",
+					"css/mui.min.css",
+					"img/new_ke (1).png",
+					"img/my_lesson (1).png",
+					"css/home.css",
+					"img/star.png",
+					"img/my_lesson (3).png",
+					"img/my_lesson (2).png",
+					"js/mui.lazyload.js",
+					"js/mui.lazyload.img.js",
+					"img/my_lesson (5).png",
+					"img/my_lesson (4).png",
+					"img/my_lesson (6).png"
 				],
 				"refer": [],
 				"priority": 0

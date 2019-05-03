@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+header h1{
+	color: #252525 !important;
+	font-size: 21px !important;
+}
+/*header图标*/
+header a{
+	color: #737573;
+}
+/*主体色*/
+body{
+	background: #f7f7f7 !important;
+}
+header{
+	background: #fff !important;
+}
+/******************************************************/
+/*头部已完成*/
+.alraedy{
+	color: #9f9f9f;
+	margin-top: 4px;
+	font-size: 18px !important;
+}
+/**********************************************/
+.new_con li{
+	width: 90%;
+	height: 130px;
+	margin: 20px auto;
+	background: #fff;
+	box-shadow: 0 0 6px #cbcbcb;
+	border-radius: 10px;
+}
+.new_con li img{
+	width: 40%;
+}
+.new_zi{
+	font-size: 18px;
+	padding-top: 8px;
+}
+.new_zi p{
+	font-size: 16px;
+	margin-top: 5px;
+}
+/*进度条*/
+.button{
+	width: 85%;
+	height: 18px;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-left: -2px;
+	background: #e6e6e6;
+}
+.new_star{
+	margin-top: 20px;
+}
+.new_star span{
+	margin-left: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
