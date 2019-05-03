@@ -137,6 +137,10 @@ ul.daka>li button{
 	font-size: 20px;
 	padding-top: 5px;
 }
+/*最后一个没有下边框*/
+.new_con li:nth-last-child(-n+1) .new_zi{
+	border-bottom: none;
+}
 .new_zi p{
 	font-size: 16px;
 	margin-top: 10px;
@@ -178,6 +182,14 @@ ul.daka>li button{
 	background: #4acb18;
 	color: #fff;
 	border-radius: 25px;
+}
+/***********************************/
+/*换一换*/
+.huan_btn{
+	text-align: center;
+	margin-top: 30px;
+	color: #737573;
+	font-size: 17px;
 }
 
 

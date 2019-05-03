@@ -165,8 +165,8 @@
 				<li><a href="#">查看全部 <span class="mui-icon iconfont icon-right"></span></a></li>
 			</ul>
 			<!--课程title-->
-			<!--课程内容-->
-			<ul class="new_con">
+			<!--切换内容1-->
+			<ul class="new_con huan_con">
 			    <li class="mui-media">
 			        <div href="javascript:;" class="new_li">
 			            <img class="mui-media-object mui-pull-left" src="../img/new_ke (3).png" width="35%" height="130px">
@@ -204,7 +204,90 @@
 			        </div>
 			    </li>
 			</ul>
-			<!--课程内容-->
+			<!--切换内容1-->
+			<!--切换内容2-->
+			<ul class="new_con huan_con" style="display:none">
+			    <li class="mui-media">
+			        <div href="javascript:;" class="new_li">
+			            <img class="mui-media-object mui-pull-left" src="../img/new_ke (5).png" width="35%" height="130px">
+			            <div class="mui-media-body new_zi">
+			                每日一词
+			                <p class="">我以为, 能与你终老</p>
+			                <div class="new_twoZi">
+			                	<span>零基础</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2153人学习
+			                </div>
+			            </div>
+			        </div>
+			    </li>
+			    <li class="mui-media">
+			        <div href="javascript:;" class="new_li">
+			            <img class="mui-media-object mui-pull-left" src="../img/new_ke (5).png" width="35%" height="130px">
+			            <div class="mui-media-body new_zi">
+			                每日一词
+			                <p class="">我以为, 能与你终老</p>
+			                <div class="new_twoZi">
+			                	<span>零基础</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2153人学习
+			                </div>
+			            </div>
+			        </div>
+			    </li>
+			    <li class="mui-media">
+			        <div href="javascript:;" class="new_li">
+			            <img class="mui-media-object mui-pull-left" src="../img/new_ke (5).png" width="35%" height="130px">
+			            <div class="mui-media-body new_zi">
+			                每日一词
+			                <p class="">我以为, 能与你终老</p>
+			                <div class="new_twoZi">
+			                	<span>零基础</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2153人学习
+			                </div>
+			            </div>
+			        </div>
+			    </li>
+			</ul>
+			<!--切换内容2-->
+			<!--切换内容3-->
+			<ul class="new_con huan_con" style="display:none">
+			    <li class="mui-media">
+			        <div href="javascript:;" class="new_li">
+			            <img class="mui-media-object mui-pull-left" src="../img/new_ke (4).png" width="35%" height="130px">
+			            <div class="mui-media-body new_zi">
+			                每日一词
+			                <p class="">我以为, 能与你终老</p>
+			                <div class="new_twoZi">
+			                	<span>零基础</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2153人学习
+			                </div>
+			            </div>
+			        </div>
+			    </li>
+			    <li class="mui-media">
+			        <div href="javascript:;" class="new_li">
+			            <img class="mui-media-object mui-pull-left" src="../img/new_ke (4).png" width="35%" height="130px">
+			            <div class="mui-media-body new_zi">
+			                每日一词
+			                <p class="">我以为, 能与你终老</p>
+			                <div class="new_twoZi">
+			                	<span>零基础</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2153人学习
+			                </div>
+			            </div>
+			        </div>
+			    </li>
+			    <li class="mui-media">
+			        <div href="javascript:;" class="new_li">
+			            <img class="mui-media-object mui-pull-left" src="../img/new_ke (4).png" width="35%" height="130px">
+			            <div class="mui-media-body new_zi">
+			                每日一词
+			                <p class="">我以为, 能与你终老</p>
+			                <div class="new_twoZi">
+			                	<span>零基础</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2153人学习
+			                </div>
+			            </div>
+			        </div>
+			    </li>
+			</ul>
+			<!--切换内容3-->
+			<!--切换按钮-->
+			<div class="huan_btn" id="huan_btn">换一换<span class="mui-icon iconfont icon-shuaxin"></span></div>
+			<!--切换按钮-->
 		</div>
 		<!--今日最热课程-->
 		<!--banner轮播-->
@@ -288,6 +371,14 @@
 	//      clickable: true,
 	//    },
 	   });
+//	   换一换
+		var i=0;
+		document.getElementById('huan_btn').onclick=function(){
+			var a=document.getElementsByClassName('huan_con'),l=a.length;
+			a[i++].style.display='none';
+			if(i>=l)i=0;
+			a[i].style.display='block';
+		}
 	</script>
 </body>
 
